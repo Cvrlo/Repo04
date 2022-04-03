@@ -1,15 +1,15 @@
-function main(numOne, numTwo) {
+function main() {
     
-    var  firsNum = 6;
+    var  firstNum = 6;
     var  secondNum = 25;
     var  thirdNum = 5.2;
 
-    firsNum *= 9;
+    firstNum *= 9;
     secondNum /= 5;
     thirdNum *= 10;
 
     return {
-        firsNum,
+        firstNum,
         secondNum,
         thirdNum
 
@@ -18,4 +18,4 @@ function main(numOne, numTwo) {
     }
    
     console.log(main());
-    module.export = main;
+    module.exports = main;
