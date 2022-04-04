@@ -1,4 +1,4 @@
-function main(numOne, numTwo) {
+function main() {
     
     var  myX = 12;
     var  myY = 19;
@@ -18,4 +18,4 @@ function main(numOne, numTwo) {
     }
    
     console.log(main());
-    module.export = main;
+    module.exports = main;
